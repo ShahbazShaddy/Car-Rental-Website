@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+body {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d3d4d4;
+    padding: 15px 100px;
+}
+
+.logo {
+    color: #444;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+body {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d3d4d4;
+    padding: 15px 100px;
+}
+
+.logo {
+    color: #444;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    color: #444;
+}
+
+.book {
+    padding: 10px 20px;
+    background: #fe5b3b;
+    font-size: 18px;
+    color: #fff;
+    border-radius: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.book:hover {
+    transform: scale(1.1);
+}
+
+.home {
+    min-height: 100vh;
+    position: relative;
+    background: #f6f7f8;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.about-img img{
+    width: 100%;
+    object-position: 20px 2px;
+}
+.heading h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.heading h5 {
+    text-align: center;
+}
+.about-text h5{
+    font-weight: 500;
+    text-transform: uppercase;    
+}
+.about-text p{
+    margin: 0.5rem 1.4rem;
+}

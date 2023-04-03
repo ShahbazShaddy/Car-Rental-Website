@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+body {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d3d4d4;
+    padding: 15px 100px;
+}
+
+.logo {
+    color: #444;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+body {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d3d4d4;
+    padding: 15px 100px;
+}
+
+.logo {
+    color: #444;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    color: #444;
+}
+
+.book {
+    padding: 10px 20px;
+    background: #fe5b3b;
+    font-size: 18px;
+    color: #fff;
+    border-radius: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book:hover {
+    transform: scale(1.1);
+}
+
+.home {
+    min-height: 100vh;
+    position: relative;
+    background: #f6f7f8;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text p {
+    margin: .5rem 0 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.heading h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.heading h5 {
+    text-align: center;
+}
+.box h3{
+    font-weight: 50;
+}
+.karachi-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.karachi-container .box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.karachi-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: fill;
+    object-position: center;
+}
+.karachi-container .box .p{
+    padding: 0 10px;
+    border: 1px solid var(--text-color);
+    width: 58px;
+    border-radius: 0.5rem;
+    margin: 1rem 0 1rem;
+
+}
+.karachi-container .box .h3{
+    font-weight: 500;
+}
+.karachi-container .box .h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0.2rem 0 0.5rem;
+}
+.karachi-container .box .h2 span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.karachi-container .box p{
+    font-style: italic;
+}
